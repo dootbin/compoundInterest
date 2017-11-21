@@ -13,6 +13,8 @@
 		303BDCA81FC1F3C90037381C /* compoundInterest_bmiles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 303BDCA61FC1F3C90037381C /* compoundInterest_bmiles.xcdatamodeld */; };
 		303BDCAA1FC1F3C90037381C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303BDCA91FC1F3C90037381C /* Assets.xcassets */; };
 		303BDCAD1FC1F3C90037381C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303BDCAB1FC1F3C90037381C /* LaunchScreen.storyboard */; };
+		304844971FC278EF003CCDD1 /* CompoundInterestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304844961FC278EF003CCDD1 /* CompoundInterestHelper.swift */; };
+		304844991FC28298003CCDD1 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304844981FC28298003CCDD1 /* Validator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		303BDCA91FC1F3C90037381C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		303BDCAC1FC1F3C90037381C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		303BDCAE1FC1F3C90037381C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304844961FC278EF003CCDD1 /* CompoundInterestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompoundInterestHelper.swift; sourceTree = "<group>"; };
+		304844981FC28298003CCDD1 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				303BDCAB1FC1F3C90037381C /* LaunchScreen.storyboard */,
 				303BDCAE1FC1F3C90037381C /* Info.plist */,
 				303BDCA61FC1F3C90037381C /* compoundInterest_bmiles.xcdatamodeld */,
+				304844961FC278EF003CCDD1 /* CompoundInterestHelper.swift */,
+				304844981FC28298003CCDD1 /* Validator.swift */,
 			);
 			path = compoundInterest_bmiles;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 			files = (
 				303BDCA21FC1F3C90037381C /* ViewController.swift in Sources */,
 				303BDCA01FC1F3C90037381C /* AppDelegate.swift in Sources */,
+				304844991FC28298003CCDD1 /* Validator.swift in Sources */,
+				304844971FC278EF003CCDD1 /* CompoundInterestHelper.swift in Sources */,
 				303BDCA81FC1F3C90037381C /* compoundInterest_bmiles.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
